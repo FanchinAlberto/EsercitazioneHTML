@@ -1,0 +1,47 @@
+body{
+    
+}
+.navigationbar{
+    display: flex;
+    gap: 15px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.navitem {
+    color: gray;
+}
+.container{
+    background-color: #141010;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.header {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    color: gainsboro;
+    font-size: 60px;
+    font-weight: bold;
+}
+.pfp{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 100%;
+}
+.description{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    color: gainsboro;
+}
