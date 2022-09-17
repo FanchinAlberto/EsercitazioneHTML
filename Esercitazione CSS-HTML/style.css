@@ -1,13 +1,13 @@
 body{
-    
+    background-color: #000;;
 }
 .navigationbar{
-    display: flex;
-    gap: 15px;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    padding: auto;
 }
 
 .navitem {
@@ -38,6 +38,33 @@ body{
     border-radius: 100%;
 }
 .description{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    color: gainsboro;
+}
+
+.imgcontainer{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.sectiontitle {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    color: gainsboro;
+    font-size: 30px;
+    font-weight: bold;
+}
+.sectiontext {
     display: flex;
     margin: auto;
     align-items: center;
