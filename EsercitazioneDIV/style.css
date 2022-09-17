@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.biggerdiv{
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.innerdiv {
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    transition: all 1s ease-in-out;
+}
+
+.innerdiv:hover{
+    transform: rotate(360deg) scale(2);
+}
