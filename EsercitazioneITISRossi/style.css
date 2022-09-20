@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar_container{
+    background-color: black;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+}
+
+a {
+    color: lightgray;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar{
+    margin-left: 20vw;
+}
+
+.search_bar{
+    height: 35px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 20vw;
+    border: 0px;
+}
+
+.search_button{
+    width: 35px;
+    height: 35px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.search_icon{
+    line-height: 35px;
+}
+
+.header{
+    width: 100%;
+    background-image: url(testarossi.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.column1{
+    margin-left: 20vw;
+    display: inline-block;
+}
+
+.logo_header{
+    width: 200px;
+    height: 200px;
+}
+
+.column3 {
+    margin-left: 60vw;
+    display: inline-block;
+}
+
+.enti_header{
+    width: 160px;
+    height: 90px;
+}
+
+.column2 {
+    display: inline-block;
+}
