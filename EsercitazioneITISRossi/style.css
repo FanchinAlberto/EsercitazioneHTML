@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: rgb(109, 169, 218);
 }
 
 .navbar_container{
@@ -26,7 +27,7 @@ a {
     height: 35px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    margin-left: 20vw;
+    margin-left: 24vw;
     border: 0px;
 }
 
@@ -49,21 +50,27 @@ a {
     background-image: url(testarossi.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
 }
 
 .column1{
     margin-left: 20vw;
-    display: inline-block;
+    float: left;
+    padding: 10px;
+    margin-top: 2vh;
 }
 
 .logo_header{
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
 }
 
 .column3 {
-    margin-left: 60vw;
-    display: inline-block;
+    margin-right: 20vw;
+    float: right;
+    margin-top: 3vh;
 }
 
 .enti_header{
@@ -72,5 +79,30 @@ a {
 }
 
 .column2 {
+    padding: 50px;
     display: inline-block;
+}
+
+.header_title{
+    background-color: whitesmoke;
+    opacity: 0.5;
+    font-size: 30px;
+    box-shadow: 20px 20px 50px black;
+}
+
+.header_subtitle{
+    background-color: whitesmoke;
+    opacity: 0.5;
+    font-size: 15px;
+    width: fit-content;
+    box-shadow: 20px 20px 50px grey;
+}
+
+.slider_container{
+    position: relative;
+    width:700px;
+    height: 450px;
+    background-color: teal;
+    margin-top: 5vh;
+    margin-left: 62vh;
 }
