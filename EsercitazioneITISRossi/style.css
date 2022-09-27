@@ -11,10 +11,12 @@ body{
     align-items: center;
     position: sticky;
     width: 100%;
+    top: 0;
+    z-index: 3;
 }
 
-a {
-    color: lightgray;
+.nav_item{
+  color: lightgray;
     text-decoration: none;
     padding: 10px;
 }
@@ -185,13 +187,14 @@ a {
 }
 
 .side_elements {
-  background-color: white;
+  background-color: rgb(178, 214, 247);
   width: 14.4vw;
-  height: 100px;
   margin-left: 66vw;
-  height: 200vh;
+  height: 236vh;
   align-items: center;
   position: absolute;
+  align-content: center;
+  z-index: 1;
 }
 
 .label {
@@ -200,6 +203,39 @@ a {
   border-radius: 10px;
   margin: auto;
   width: 12vw;
-  margin-top: 3vh;
+  margin-top: 2vh;
   text-align:center;
+  color: white;
+}
+
+.side_elements_text{
+  color: black;
+  text-align: center;
+  margin: auto;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.side_elements_input{
+  display: block;
+  margin: auto;
+}
+
+.side_elements_button{
+  display: block;
+  margin: auto;
+  margin-top: 1vh;
+}
+
+.side_elemnts_link{
+  margin: auto;
+  margin-top: 1vh;
+  font-size: small;
+}
+
+.side_elements_image{
+  margin: auto;
+  margin-top: 1vh;
+  width: 13.5vw;
+  display: block;
 }
