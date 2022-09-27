@@ -1,11 +1,11 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: rgb(109, 169, 218);
+    background-color: rgb(137,171,223);
 }
 
 .navbar_container{
-    background-color: black;
+    background-color: rgb(34,34,34);
     height: 5vh;
     display: flex;
     align-items: center;
@@ -16,7 +16,7 @@ body{
 }
 
 .nav_item{
-  color: lightgray;
+  color: rgb(157,153,149);
     text-decoration: none;
     padding: 10px;
 }
@@ -143,9 +143,7 @@ body{
 }
 
 /* Caption text */
-.text {
-  color: white;
-  font-size: 15px;
+.bg_text {
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -153,6 +151,12 @@ body{
   text-align: left;
   background-color: black;
   opacity: 0.5;
+}
+
+.text{
+  color: white;
+  font-size: 15px;
+  opacity: 1;
 }
 
 /* The dots/bullets/indicators */
@@ -187,19 +191,19 @@ body{
 }
 
 .side_elements {
-  background-color: rgb(178, 214, 247);
+  background-color: rgb(222,239,246);
   width: 14.4vw;
-  margin-left: 66vw;
-  height: 236vh;
+  height: 241%;
   align-items: center;
   position: absolute;
   align-content: center;
   z-index: 1;
+  display: inline-block;
 }
 
 .label {
   padding: 7px;
-  background-color: rgb(109, 169, 248);
+  background-color: rgb(127,166,232);
   border-radius: 10px;
   margin: auto;
   width: 12vw;
@@ -238,4 +242,96 @@ body{
   margin-top: 1vh;
   width: 13.5vw;
   display: block;
+}
+
+.main_evidenza_avvisi{
+  width: 883px;
+  height: 420px;
+  background-color: rgb(39,158,177);
+}
+
+.header_main_ea{
+  background-color: rgb(56,89,145);
+  height: 3.5vh;
+  line-height: 3.5vh;
+  color: white;
+  font-size: 2.5vh;
+  margin-bottom: 1vh;
+}
+.evidenza_date{
+  display: inline;
+  margin-right: 8.5vw;
+  font-size: small;
+  color: rgb(52,92,145);
+}
+
+.evidenza_text{
+  color: white;
+  display: inline-block;
+  margin-right: 2vw;
+  margin-top: 0.8vh;
+}
+
+.avvisi_subtitle{
+  color: white;
+  font-size: 20px;
+  margin-top: 0.8vh;
+}
+
+.main_news{
+  display: inline-block;
+}
+
+.main_elements{
+  display: inline-block;
+  background-color: white;
+  margin-left: 20vw;
+  width: 883px;
+}
+
+.news_header_label{
+  margin-top: 2vh;
+  background-color: rgb(52,92,145);
+  margin-left: 0.7vw;
+  height: 3.5vh;
+  line-height: 3.5vh;
+  width: 26vw;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px grey;
+  font-size: large;
+  color: white;
+  margin-bottom: 2vh;
+}
+
+.news_label{
+  margin-left: 0.7vw;
+  height: 2vh;
+  line-height: 2vh;
+  background-color: rgb(51,155,223);
+  border-radius: 3px;
+  width: 4vW;
+  box-shadow: 5px 5px 5px grey;
+  color: white;
+  text-align: center;
+  float: left;
+  margin-right: 0.6vW;
+}
+
+.news_text{
+  margin-top: 1vh;
+}
+
+.news_image{
+  width: 200px;
+  height: 130px;
+  margin-top: 1vh;
+  float: left;
+  margin-left: 0.7vw;
+}
+
+.news_hr{
+  width: 100%;
+  background-color: rgb(204,204,204);
+  margin-left: 0.7vw;
+  margin-top: 2vh;
 }
